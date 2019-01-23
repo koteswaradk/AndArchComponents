@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".livedata.LIveDataActivity">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/randumnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Randum Number"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="278dp" />
+    <Button
+        android:text="update"
+        android:id="@+id/update_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
